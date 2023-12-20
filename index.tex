@@ -1,0 +1,270 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage{adjustbox}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+% serif
+% \usepackage{CormorantGaramond}
+\usepackage{palatino}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.8in}
+\addtolength{\evensidemargin}{-3.5in}
+\addtolength{\textwidth}{1.59in}
+\addtolength{\topmargin}{-0.9in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% Sections formatting
+\titleformat{\section}{
+\vspace{-4pt}\scshape\raggedright\Large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+\item\large{
+{#1 \vspace{-2pt}}
+}
+}
+\newcommand{\classesList}[4]{
+\item\normalsize{
+{#1 #2 #3 #4 \vspace{-2pt}}
+}
+}
+\newcommand{\resumeSubheading}[4]{
+\vspace{-2pt}\item
+\begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{#1} & \textbf{\normalsize #2} \\
+\textit{\normalsize#3} & \textit{\normalsize #4} \\
+\end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubSubheading}[2]{
+\item
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textit{\small#1} & \textit{\small #2} \\
+\end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+\item
+\begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+\small#1 & \textbf{\small #2}\\
+\end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+%-------------------------------------------
+%%%%%% RESUME STARTS HERE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+% \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email :\href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+% \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+{\Huge \scshape Mohit Kumar Agrawal} \\ \vspace{0pt}
+% 123 Street Name, Town, State 12345 \\ \vspace{1pt}
+\small \raisebox{-0.1\height}\faPhone\ +91 8102860363 ~
+\href{mailto:mhtkrag@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \textcolor{blue}
+{mhtkrag@gmail.com}} ~
+\href{https://www.linkedin.com/in/mohit-agrawal-02183b23a/}{\raisebox{-0.2\height}\faLinkedin\
+\textcolor{blue}{LinkedIn}}~
+\href{https://github.com/mohitkumaragrawal}{\raisebox{-0.2\height}\faGithub\ \textcolor{blue}
+{Github}}
+\end{center}
+%-----------EDUCATION-----------
+\vspace{-20pt}
+\section{Education}
+% \resumeSubHeadingListStart
+% \resumeSubheading{National Institute of Technology (NIT), Jamshedpur, India}{July 2019 -- June 2023 (Expected){}{~}
+% \vspace{-17pt}
+% \resumeItemListStart
+% \resumeItem{Bachelor of Technology - Computer Science and Engineering $|$ CGPA: 8.84/10
+% \resumeItemListEnd
+% \resumeSubheading{Motilal Nehru Public School, Jamshedpur, India}{April 2017 -- April 2019{}{~}
+% \vspace{-17pt}
+% \resumeItemListStart
+% \resumeItem{ISC (Class XII) $|$ Grade: 97.5\% (Top 1\% in India)}
+% \resumeItem{ICSE (Class X) $|$ Grade: 97\% (School Topper)}
+% \resumeItemListEnd
+% \resumeSubHeadingListEnd
+\vspace{-13pt}
+\begin{table}[ht]
+\centering
+\begin{adjustbox}{width=1\textwidth}
+\begingroup
+
+\setlength{\tabcolsep}{6pt} % Default value: 6pt
+\renewcommand{\arraystretch}{1.2} % Default value: 1
+\begin{tabular}{|llll|}
+\hline
+\textbf{Year} & \textbf{Degree/Certificate} & \textbf{Institute}
+& \textbf{CGPA/\%} \\
+\hline
+2021 - Present & B.Tech - Computer Science and Engineering & National Institute of
+Technology Jamshedpur & 8.88/10.0 \\
+2020 - 2021 & Class XII - CBSE & DAV Public School, Daltonganj &
+95\% \\
+2018 - 2019 & Class X - CBSE & VPM Gyan Niketan School, Daltonganj &
+94\% \\
+\hline
+\end{tabular}
+\endgroup
+\end{adjustbox}
+\end{table}
+\vspace{-20pt}
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Official WebTeam of NIT Jamshedpur $|$ \href{https://nijsr.ac.in}{\textcolor{blue}{Link}}}{April 2022 -- Present}
+{Full Stack Web Developer}{}
+\resumeItemListStart
+\resumeItem{Leading the complete rewrite of the frontend using Next.js to enhance SEO performance}
+\resumeItem{Spearheaded the complete revamp of the official NIT Jamshedpur website, resulting in improved user experience and modernized design.}
+\resumeItem{Developed and implemented the Mail Tracker project, enabling efficient mail management and task assignment within the organization.}
+\resumeItem{Worked on \href{http://nimcet.in}{\textcolor{blue}{NIMCET 2023}} website, homepage of NIT MCA Common Entrance Test (2023)}
+\resumeItemListEnd
+% \resumeSubheading
+% {Programming Club of NIT Jamshedpur}{April 2023 -- Present}
+% {Member of Competitive Programing Wing}{}
+% \resumeItemListStart
+% \resumeItem{Prepared and conducted contests for the juniors}
+% \resumeItemListEnd
+\resumeSubheading
+{Culfest '2023 WebTeam $|$ \href{https://culfest.in}{\textcolor{blue}{Link}}}{September 2022 -- Present}
+{Frontend developer}{}
+\resumeItemListStart
+\resumeItem{Collaboratively designed the SEO-friendly CulFest website for NIT Jamshedpur within a team of three, using Next.js for development and Chakra UI for styling.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-13pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+\small{\item{
+\textbf{Languages: }{C $|$ C++ $|$ Javascript $|$ Typescript $|$ Python} \\
+\vspace{1pt}
+\vspace{1pt}
+\textbf{Web Technologies: }{HTML $|$ CSS $|$ Node.js $|$ Express.js $|$ React.js $|$ Next.js $|$ TailwindCSS $|$ Socket.io } \\
+\vspace{1pt}
+\textbf{Databases: }{PostgreSQL $|$ MySQL $|$ MongoDB $|$ Prisma} \\
+\vspace{1pt}
+\textbf{Tools/Platforms: }{Git $|$ Github} \\
+}}
+\end{itemize}
+
+
+%----------Achievements---------------
+\vspace{-18pt}
+\section{Achievements}
+\resumeItemListStart
+
+\resumeItem{Codeforces: \textbf{Maximum Rating - 1935 \textcolor{violet}{(Candidate Master)} $|$ India Rank - 204} $|$ \href{https://codeforces.com/profile/mhtkrag}{\textcolor{blue}{Profile}}}
+\vspace{-5pt}
+
+\resumeItem{Codechef: \textbf{Maximum Rating - 2175 {(5 \faStar)} $|$ India Rank - 156} $|$ \href{https://www.codechef.com/users/mohitagrawal32}{\textcolor{blue}{Profile}}}
+\vspace{-5pt}
+
+\resumeItem{Stood {\bf AIR 48 and AIR 70} in the {\bf ICPC Amritapuri 2022 and ICPC Kanpur-Mathura 2022 Qualifier Round} along with my team TEAM DEAD, and got {\bf selected for both regionals.}}
+\vspace{-5pt}
+
+\resumeItem{Global Rank {\bf 375th} in Round A and {\bf 397th} in Round B of {\bf Google Code Jam Farewell 2023.}}
+\vspace{-5pt}
+
+\resumeItem{Stood {\bf India Rank 2} and {\bf Global Rank 7} out of 19,003 participants in Codechef Starters 87 (Div 2)}
+\vspace{-5pt}
+
+\resumeItem{Stood {\bf Global Rank 131} out of 12,157 participants in Codeforces Round 880 (Div 2)}
+\vspace{-5pt}
+
+\resumeItem{Stood {\bf 1st} in the {\bf Binary Search Contest}, {\bf 2k21 Contest \#01, \#02 and \#03 } organized by {\bf Programming Club of  NIT Jamshedpur.}}
+\vspace{-5pt}
+
+\resumeItemListEnd
+\vspace{-8pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\vspace{-7pt}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{\large{{SurveysApp}}} $|$ \href{https://surveys-app.vercel.app/}{\textcolor{blue}{App Link}} $|$ \href{https://github.com/mohitkumaragrawal/surveys-app}{\textcolor{blue}{Source Code}}}{Next.js $|$ PostgreSQL $|$ TailwindCSS $|$ Typescript}
+\resumeItemListStart
+\resumeItem{Developed a user-friendly web app for creating, hosting, and sharing surveys using Next.js 13 }
+\resumeItem{Implemented light and dark themes for enhanced user experience and enabled data export in CSV format.}
+\resumeItemListEnd
+\vspace{-17pt}
+\resumeProjectHeading
+{\textbf{\large{{Silence (Technica Hackathon - 2nd prize)}}} $|$ \href{https://silence-frontend.onrender.com/}{\textcolor{blue}{App Link}} $|$ \href{https://github.com/mohitkumaragrawal/silence}{\textcolor{blue}{Source Code}}}{React.js $|$ Express.js $|$ Socket.io $|$ MongoDB}
+\resumeItemListStart
+\resumeItem{Designed and developed a chat application that enables users to communicate and send stickers using bobble.ai during the Technica hackathon}
+\resumeItemListEnd
+\vspace{-17pt}
+\resumeProjectHeading
+{\textbf{\large{{Quizilla!!}}} $|$ \href{https://gracious-northcutt-fdcfd3.netlify.app/}{\textcolor{blue}{App Link}} $|$ \href{https://github.com/mohitkumaragrawal/quizillla}{\textcolor{blue}{Source Code}}}{React.js $|$ CSS}
+\resumeItemListStart
+\resumeItem{Developed "Quizilla," a user-friendly quiz app that fetches questions from an API and provides an intuitive interface for seamless navigation between questions.}
+}
+\resumeItemListEnd
+\vspace{-7pt}
+\vspace{-13pt}
+\resumeSubHeadingListEnd
+\vspace{10pt}
+
+\section{Positions of Responsibility}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{51ex}} l }
+Programming Club of NIT Jamshedpur  & April 2023-- Present\\
+\end{tabular}\\
+{Member of Competitve Programming Wing}\\
+
+
+\end{document}
